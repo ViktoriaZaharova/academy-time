@@ -1,0 +1,439 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1450px)
+  .request:before
+    width: 600px
+
+  .slick-prev
+    left: 0
+
+  .slick-next
+    right: 0
+
+
+@media only screen and (max-width : 1300px)
+  .callback-content
+    max-width: 580px
+    width: calc(100% - 440px)
+
+  .callback-img
+    max-width: 440px
+    padding: 30px 30px 0
+
+
+
+@media only screen and (max-width : 1240px)
+  .main-img
+    max-width: 700px
+
+  .main-img-tag1
+    left: 150px
+
+  .main-img-tag2
+    top: 130px
+    right: 120px
+
+  .main-img-tag3
+    right: 130px
+
+  .request-form
+    max-width: 450px
+
+  .request-content
+    max-width: 480px
+
+  .course-box
+    max-width: 49%
+
+  .list-number
+    font-size: 20px
+    li
+      margin: 0 0 20px
+    .num
+      width: 50px
+      min-width: 50px
+      height: 50px
+      font-size: 24px
+      margin: 0 20px 0 0
+
+  .materials-content
+    width: 500px
+    min-width: 500px
+    margin: 0 30px 0 0
+
+  .materials-img
+    width: 620px
+    min-width: 620px
+
+  .materials-description
+    font-size: 16px
+    margin: 30px 0 0
+
+  .materials
+    padding: 50px 0 40px
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1100px)
+  .ways-box
+    padding: 0 40px
+
+  .request-content
+    max-width: none
+    font-size: 16px
+    line-height: normal
+    h4
+      font-size: 22px
+
+  .request:before
+    width: 100%
+    height: 400px
+    bottom: 0
+    top: auto
+
+  .request-form
+    margin: 0 auto 30px
+    max-width: 700px
+
+  .request-content
+    margin: 0 auto 30px
+    p
+      max-width: none
+
+  .icon-arrow
+    transform: scale(1,-1)
+    margin: 0 0 0 auto
+
+  .callback-content
+    max-width: 500px
+
+
+@media only screen and (max-width : 992px)
+  h1
+    margin: 70px 0 40px
+
+  .main-content
+    max-width: none
+    padding: 40px 0
+    .box-text
+      text-align: center
+      font-size: 16px
+
+  .logo
+    text-align: center
+
+  h1
+    text-align: center
+    font-size: 40px
+
+  main
+    .btn
+      margin: 35px auto 0
+
+  .main-img
+    max-width: none
+    margin: 40px auto 60px
+
+  .mission-box
+    font-size: 16px
+    h3
+      font-size: 24px
+
+  .ways-box__img
+    max-width: 314px
+
+  .ways-box__content
+    width: calc(100% - 314px)
+    padding: 0 0 0 030px
+
+  .ways-box
+    &:nth-child(odd)
+      .ways-box__content
+        padding: 0 0 0 30px
+
+  .about-author__content
+    max-width: 340px
+
+  .about-author__img
+    margin: 0 30px 0 0
+
+  .about-author .description, .list-check
+    font-size: 16px
+
+  .about-author .description
+    margin: 0 0 30px
+
+  .about-author
+    padding: 40px 0 30px
+
+  .callback-content
+    max-width: none
+    width: 100%
+    .description
+      max-width: none
+    h2
+      text-align: center
+
+  .callback-img
+    margin: 0 auto 50px
+
+  .callback
+    padding: 60px 0
+
+  .form
+    label
+      margin: 0 auto 15px
+    .checkbox
+      margin: 25px auto 0
+      justify-content: center
+    button
+      margin: 25px auto 0
+
+  .img-like
+    left: 20px
+
+  .reviews-box
+    padding: 20px
+    font-size: 16px
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 900px)
+  .stages-course__box
+    width: 50%
+
+  .materials-content
+    max-width: 450px
+    width: 450px
+
+  .materials-img
+    width: 520px
+    min-width: 520px
+
+
+@media only screen and (max-width : 768px)
+  .main-img-tag1
+    left: 0
+
+  .main-img-tag2
+    right: 0
+
+  .main-img-tag3
+    right: 20px
+
+  .main-img-tag
+    height: 65px
+
+  .mission-box
+    padding: 30px 20px
+
+  h2
+    font-size: 30px
+    margin: 0 auto 30px
+
+  .mission-box
+    width: 100%
+
+  .ways-box
+    flex-direction: column
+    align-items: center
+    padding: 0
+    margin: 0 auto 30px
+    h3
+      text-align: center
+      margin: 0 auto 20px
+    p
+      font-size: 16px
+    &:nth-child(odd)
+      .ways-box__content
+        padding: 0
+
+  .ways-box__content
+    padding: 0
+    width: 100%
+    margin: 20px auto 0
+    order: 1
+
+  .ways
+    .btn
+      height: 60px
+      font-size: 16px
+
+  .about-author__content
+    max-width: none
+
+  .about-author__img
+    margin: 0 auto 30px
+
+  .date-course
+    font-size: 18px
+
+  .course-box__body, .course-box__footer
+    padding: 20px
+
+  .course-box__head
+    padding: 20px 20px 40px
+
+  .materials
+    .container
+      flex-wrap: wrap
+
+  .materials-content
+    width: 100%
+    margin: 0 0 20px
+    min-width: auto
+    max-width: none
+
+  .list-number
+    font-size: 18px
+    .num
+      font-size: 22px
+    li
+      align-items: center
+
+  .materials-img
+    width: 100%
+    min-width: auto
+    margin: 0 -15px 0 auto
+
+  .marathon-plan__box
+    padding: 30px 20px
+    font-size: 16px
+    margin: 0 0 25px
+    h3
+      font-size: 18px
+
+  .marathon-plan-description
+    font-size: 16px
+    margin: 0 0 30px
+    h4
+      font-size: 18px
+
+  .marathon-plan
+    h2
+      margin: 0 auto 30px
+
+  .slick-arrow
+    width: 40px
+    height: 40px
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 575px)
+  .main-img-tag
+    position: relative
+    left: 0
+    right: 0
+    bottom: 0
+    top: 0
+    margin: 15px auto 0
+    max-width: 280px
+    width: 100%
+
+  .main-img
+    display: flex
+    flex-direction: column
+    align-items: center
+
+  .mission
+    padding: 30px 0
+
+  .about-author__img
+    width: 250px
+    height: 300px
+
+  .position
+    letter-spacing: 0.1em
+
+  .request-form
+    padding: 30px 20px
+    p
+      font-size: 20px
+
+  .course-box
+    max-width: none
+
+  .val-course
+    font-size: 14px
+
+  .course-box__body
+    min-height: auto
+    br
+      display: none
+
+  .course
+    padding: 40px 0
+
+  .stages-course__box
+    width: 100%
+    br
+      display: none
+
+  .stages-course
+    padding: 40px 0
+
+@media only screen and (max-width : 480px)
+  .main-img:before
+    width: 900px
+    height: 900px
+
+  h1
+    font-size: 36px
+
+  h2
+    font-size: 24px
+
+  .ways-box__img
+    padding: 0 0 0 40px
+
+  .ways-box__icon
+    left: 0
+
+  .ways-box
+    &:nth-child(odd)
+      .ways-box__icon
+        left: auto
+        right: 0
+      .ways-box__img
+        padding: 0 40px 0 0
+
+  .img-wrap
+    height: 260px
+
+  .ways
+    padding: 0 0 40px
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
